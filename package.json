@@ -1,6 +1,6 @@
 {
   "name": "hrt-ttx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI to read HRT Teletekst in terminal",
   "main": "src/index.js",
   "bin": {
