@@ -13,7 +13,11 @@ without clickbait and ads. [#hejtzaklikbejt](https://www.facebook.com/hejtzaklik
 ```
 npm install -g hrt-ttx
 ```
-or 
+Then
+```
+hrt-ttx
+```
+or just
 ```
 npx hrt-ttx
 ```
@@ -39,5 +43,5 @@ Enter `help` to show help.
 
 ### Know issues
 
-- HRT Teletekst uses `gif` images which are corrupted and that causes issues with several `js`
+HRT Teletekst uses `gif` images which are corrupted and that causes issues with several `js`
 libraries. For that reason other terminals are not supported. 
