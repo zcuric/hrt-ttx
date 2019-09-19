@@ -1,10 +1,9 @@
 {
-  "name": "@zcuric/hrt-ttx",
+  "name": "hrt-ttx",
   "version": "1.0.1",
   "description": "CLI to read HRT Teletekst in terminal",
   "main": "src/index.js",
   "bin": {
-    "@zcuric/hrt-ttx": "bin/hrt-ttx",
     "hrt-ttx": "bin/hrt-ttx"
   },
   "publishConfig": {
