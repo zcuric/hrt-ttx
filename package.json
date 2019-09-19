@@ -1,0 +1,42 @@
+{
+  "name": "@zcuric/hrt-ttx",
+  "version": "1.0.0",
+  "description": "CLI to read HRT Teletekst in terminal",
+  "main": "src/index.js",
+  "bin": {
+    "@zcuric/hrt-ttx": "bin/hrt-ttx",
+    "hrt-ttx": "bin/hrt-ttx"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "bin/hrt-ttx",
+    "dev": "nodemon bin/hrt-ttx"
+  },
+  "keywords": [
+    "cli",
+    "hrt",
+    "ttx",
+    "teletekst",
+    "nodejs"
+  ],
+  "author": "Zdravko Curic",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.4",
+    "got": "^9.6.0",
+    "term-img": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2"
+  }
+}
